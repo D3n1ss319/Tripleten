@@ -2,6 +2,11 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+# Add a header to the app
+st.title("Análisis de vehículos en EE.UU.")  # This will be the main title
+st.header("Exploración de datos sobre kilometraje y precio")  # This will be a subheader
+
+
 # Load the data
 car_data = pd.read_csv('vehicles_us.csv')
 
